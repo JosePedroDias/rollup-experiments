@@ -1,0 +1,22 @@
+{
+  "name": "rollup-experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "rm -rf dist && rollup --config rollup.config.js",
+    "serve": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.0.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-image": "^2.1.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-replace": "^3.0.0",
+    "@rollup/plugin-strip": "^2.1.0",
+    "rollup-plugin-cleanup": "^3.2.1"
+  }
+}

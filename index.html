@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>test rollup</title>
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+        <style></style>
+    </head>
+    <body>
+        <!-- both -->
+        <script type="module" src="/dist/es/main.js"></script>
+        <script nomodule src="https://unpkg.com/systemjs@6.11.0/dist/s.min.js"></script>
+        <script nomodule>System.import('/dist/system/main.js');</script>
+    </body>
+</html>
